@@ -1,5 +1,9 @@
 # native-segmented-control
 
+[![npm](https://img.shields.io/npm/v/native-segmented-control.svg)](https://www.npmjs.com/package/native-segmented-control) [![license](https://img.shields.io/npm/l/native-segmented-control.svg)](https://github.com/AnishSapre/native-segmented-control/blob/main/LICENSE)
+
+**npm:** [native-segmented-control](https://www.npmjs.com/package/native-segmented-control) · **GitHub:** [AnishSapre/native-segmented-control](https://github.com/AnishSapre/native-segmented-control)
+
 Apple's `UISegmentedControl` for React Native's New Architecture. On iOS 26 it is the
 system **liquid glass** segmented control, with the sliding glass selection and press
 feedback.
@@ -54,6 +58,14 @@ const [index, setIndex] = useState(0)
 A small Fabric component wraps Apple's own UIKit control, so iOS draws and animates it.
 React Native's codegen builds the bridge from the TypeScript spec in
 `src/*NativeComponent.ts` during `pod install`.
+
+## Related packages
+
+Native iOS controls for React Native (New Architecture), with liquid glass on iOS 26:
+
+- [native-tab-bar](https://github.com/AnishSapre/native-tab-bar) ([npm](https://www.npmjs.com/package/native-tab-bar)): Apple's UITabBar (iOS 26 liquid glass tab bar) with a React Navigation adapter
+- [native-glass-button](https://github.com/AnishSapre/native-glass-button) ([npm](https://www.npmjs.com/package/native-glass-button)): iOS 26 liquid glass buttons and menus
+- [native-slider](https://github.com/AnishSapre/native-slider) ([npm](https://www.npmjs.com/package/native-slider)): Apple's UISlider
 
 ## License
 
