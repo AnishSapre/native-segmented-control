@@ -1,6 +1,6 @@
 {
   "name": "native-segmented-control",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Apple's UISegmentedControl for React Native (Fabric): the real iOS 26 liquid glass segmented control.",
   "main": "src/index.ts",
   "react-native": "src/index.ts",
